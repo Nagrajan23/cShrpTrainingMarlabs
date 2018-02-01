@@ -25,10 +25,10 @@ namespace FileSearchWindowsFormsApp1
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            String strdir = textBox1.Text;
+            //String strdir = textBox1.Text;
             FileSearch.File fileobj = new FileSearch.File();
             fileobj.sendFileName += SendFileName;
-            Thread thread = new Thread(() => fileobj.Search(strdir));
+            Thread thread = new Thread(() => fileobj.Search(textBox1.Text));
             thread.Start();
         }
 
