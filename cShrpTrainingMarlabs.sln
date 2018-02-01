@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "delegatesStuff", "delegates
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "factorialLibrary", "factorialLibrary\factorialLibrary.csproj", "{29E83931-EEAE-4526-B87F-F2366DC97FD0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSearch", "FileSearch\FileSearch.csproj", "{B9D2519C-9383-44FF-9CC7-2DFB9BE9230E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSearchConsoleApp1", "FileSearchConsoleApp1\FileSearchConsoleApp1.csproj", "{633B0AE1-CBAB-41B7-8E44-2253A635458E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSearchWindowsFormsApp1", "FileSearchWindowsFormsApp1\FileSearchWindowsFormsApp1.csproj", "{7D58E26C-5904-45EF-9A0A-297C711DB29E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +27,18 @@ Global
 		{29E83931-EEAE-4526-B87F-F2366DC97FD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29E83931-EEAE-4526-B87F-F2366DC97FD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29E83931-EEAE-4526-B87F-F2366DC97FD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9D2519C-9383-44FF-9CC7-2DFB9BE9230E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9D2519C-9383-44FF-9CC7-2DFB9BE9230E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9D2519C-9383-44FF-9CC7-2DFB9BE9230E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9D2519C-9383-44FF-9CC7-2DFB9BE9230E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{633B0AE1-CBAB-41B7-8E44-2253A635458E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{633B0AE1-CBAB-41B7-8E44-2253A635458E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{633B0AE1-CBAB-41B7-8E44-2253A635458E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{633B0AE1-CBAB-41B7-8E44-2253A635458E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D58E26C-5904-45EF-9A0A-297C711DB29E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D58E26C-5904-45EF-9A0A-297C711DB29E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D58E26C-5904-45EF-9A0A-297C711DB29E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D58E26C-5904-45EF-9A0A-297C711DB29E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
