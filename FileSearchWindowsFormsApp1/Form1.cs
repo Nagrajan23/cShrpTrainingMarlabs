@@ -34,7 +34,8 @@ namespace FileSearchWindowsFormsApp1
 
         private void SendFileName(string file)
         {
-            listBox1.Items.Add(file);
+            MessageBox.Show(file);
+            listBox1.Items.Add("Hello Raj");
         }
     }
 }

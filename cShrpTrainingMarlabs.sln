@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSearchConsoleApp1", "Fi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSearchWindowsFormsApp1", "FileSearchWindowsFormsApp1\FileSearchWindowsFormsApp1.csproj", "{7D58E26C-5904-45EF-9A0A-297C711DB29E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{15F91079-682D-4EB1-AE0D-66EC4E545F5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWeb2", "HelloWeb2\HelloWeb2.csproj", "{331E2257-0C79-4A06-B2BB-D6FA7989DC17}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{7D58E26C-5904-45EF-9A0A-297C711DB29E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D58E26C-5904-45EF-9A0A-297C711DB29E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D58E26C-5904-45EF-9A0A-297C711DB29E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15F91079-682D-4EB1-AE0D-66EC4E545F5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15F91079-682D-4EB1-AE0D-66EC4E545F5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15F91079-682D-4EB1-AE0D-66EC4E545F5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15F91079-682D-4EB1-AE0D-66EC4E545F5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{331E2257-0C79-4A06-B2BB-D6FA7989DC17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{331E2257-0C79-4A06-B2BB-D6FA7989DC17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{331E2257-0C79-4A06-B2BB-D6FA7989DC17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{331E2257-0C79-4A06-B2BB-D6FA7989DC17}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
