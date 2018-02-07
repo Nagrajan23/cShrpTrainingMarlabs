@@ -11,11 +11,17 @@ namespace HelloWeb2.Controllers
         // GET: Home
         public ActionResult Index()
         {
-            return View();
+            Session["MyTimeSession"] = DateTime.Now.ToString();
+            TempData["MyTimeTemp"] = DateTime.Now.ToString();
+            ViewBag.MyTime = DateTime.Now.ToString();
+            //return View();
+            return RedirectToAction("GotoHome", "Home");
         }
 
         public ActionResult GotoHome()
         {
+            //ViewData["MyTime"] = DateTime.Now.ToString();
+            //ViewBag.MyTime = DateTime.Now.ToString();
             return View();
         }
     }

@@ -15,6 +15,12 @@ namespace HelloWeb2
             routes.IgnoreRoute("{resource}.config/{*pathInfo}");
 
             routes.MapRoute(
+                name: "Default",
+                url: "{controller}/{action}/{id}",
+                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+            );
+
+            routes.MapRoute(
                 name: "Home",
                 url: "Home",
                 defaults: new { controller = "Home", action = "GotoHome", id = UrlParameter.Optional }
@@ -30,12 +36,6 @@ namespace HelloWeb2
                 name: "Home2",
                 url: "",
                 defaults: new { controller = "Home", action = "GotoHome", id = UrlParameter.Optional }
-            );
-
-            routes.MapRoute(
-                name: "Default",
-                url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
         }
     }

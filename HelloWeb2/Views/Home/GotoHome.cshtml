@@ -11,8 +11,11 @@
     <title>MyHomePage</title>
 </head>
 <body>
-    <div> 
-        Hello Raj. Goto Home.
+    <div>
+        Hello Raj. Goto Home.<br />
+        ViewBag Time = @ViewBag.MyTime<br />
+        TempData Time = @TempData["MyTimeTemp"]<br />
+        Session Time = @Session["MyTimeSession"]<br />
     </div>
 </body>
 </html>
